@@ -5,6 +5,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
+    "test:inspect": "node --inspect-brk ./node_modules/.bin/jest ./app --watch --no-cache --runInBand",
     "test:ci": "jest --ci"
   },
   "dependencies": {
